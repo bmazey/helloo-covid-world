@@ -40,9 +40,9 @@ def create_app():
                 street_address='123 Sunset Street',
                 city='Chicago',
                 state='IL',
-                zip_code='60411',
-                telephone_number='606-334-9714',
-                website='http://www.veryimportanthealthcenter.org',
+                zip_code='99999',
+                telephone_number='606-334-9700',
+                website='http://www.veryimportantheuygdster.org',
                 test_status='Yes',
                 telehealth_status='Yes',
                 description='As of 08/07/2020, this health center reported providing COVID-19 testing and services via '
