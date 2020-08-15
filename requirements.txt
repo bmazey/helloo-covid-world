@@ -1,4 +1,4 @@
 requests
 flask
-sqlalchemy
+flask_sqlalchemy
 pandas
