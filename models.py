@@ -17,4 +17,4 @@ class TestingLocation(db.Model):
 
     # string representation dunder
     def __repr__(self):
-        return '{{"health_center_name": "{}"}}'.format(self.health_center_name)
+        return '{{"health_center_name": "{}", "operated_by": "{}", "street_address": "{}", "city": "{}"}}'.format(self.health_center_name,self.operated_by,self.street_address,self.city)

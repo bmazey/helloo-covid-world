@@ -34,6 +34,24 @@ def create_app():
             db.session.add(location)
             db.session.commit()
 
+            location = TestingLocation(
+                health_center_name='More Important Health Center',
+                operated_by='more Qualified Health Council',
+                street_address='1234 Sunset Street',
+                city='Chicagoooooo',
+                state='NY',
+                zip_code='99999',
+                telephone_number='555-555-5555',
+                website='http://www.moreimportanthealthcenter.org',
+                test_status='no',
+                telehealth_status='no',
+                description='As of 08/07/1985, this health center reported providing measles testing and services via '
+                            'teledeath at one or more very sites. Please call the center for less information.',
+            )
+
+            db.session.add(location)
+            db.session.commit()
+
         except Exception:
             pass
 
