@@ -2,6 +2,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 
+
 class TestingLocationForm(FlaskForm):
     health_center_name = StringField('Health Center Name', validators=[DataRequired()])
     operated_by = StringField('Operated by', validators=[DataRequired()])
@@ -11,6 +12,5 @@ class TestingLocationForm(FlaskForm):
     zip_code = StringField('Zip Code', validators=[DataRequired()])
     telephone_number = StringField('Telephone Number', validators=[DataRequired()])
     website = StringField('Website', validators=[DataRequired()])
-    test_status = StringField('Test Status', validators=[DataRequired()])
-    telehealth = StringField('TeleHealth', validators=[DataRequired()])
     description = StringField('Description', validators=[DataRequired()])
+    submit = SubmitField('Submit')
