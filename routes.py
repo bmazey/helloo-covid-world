@@ -55,5 +55,8 @@ def get_locations_by_state(state):
     return str(locations)
 
 
-
+@pages.route('/testing/locations/city/<city>', methods=['GET'])
+def get_locations_by_city(city):
+    locations = TestingLocation.query.filter_by(city=city).all()
+    return str(locations)
 
