@@ -37,12 +37,12 @@ def create_app():
             location = TestingLocation(
                 health_center_name='Other Important Health Center',
                 operated_by='Other Qualified Health Council',
-                street_address='123 Sunset Street',
-                city='Chicago',
-                state='IL',
-                zip_code='99999',
+                street_address='456 Sunrise Avenue',
+                city='New York',
+                state='NY',
+                zip_code='11215',
                 telephone_number='606-334-9700',
-                website='http://www.veryimportantheuygdster.org',
+                website='http://www.otherimportanthealthcenter.org',
                 test_status='Yes',
                 telehealth_status='Yes',
                 description='As of 08/07/2020, this health center reported providing COVID-19 testing and services via '
